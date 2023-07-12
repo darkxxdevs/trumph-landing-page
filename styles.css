@@ -1,0 +1,275 @@
+/* IPORTS */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    font-family: 'PT Serif', serif;
+    overflow-x: hidden;
+
+}
+
+#header {
+    height: auto;
+    width: 100vw;
+}
+
+#nav-bar {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    gap: 50px;
+}
+
+
+#logo-box {
+    padding-top: 22px;
+    width: 100%;
+}
+
+#header-img {
+    width: 392px;
+    max-width: 100%;
+    height: auto;
+    padding: 5px 50px;
+}
+
+#navlink-box {
+    padding: 40px;
+    position: relative;
+    right: 2%;
+    width: 64vw;
+    flex: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-link {
+    position: relative;
+    margin-left: 143px;
+    color: black;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+#form {
+    display: block;
+    position: relative;
+}
+
+#email {
+    width: 16vw;
+    margin-left: 42%;
+    max-width: 400px;
+    padding: 4px;
+}
+
+#form h2 {
+    display: block;
+    margin-left: 40%;
+}
+
+#get-started {
+    display: block;
+    background-color: #FFA500;
+    border: 0;
+    margin-left: 45%;
+    margin-top: 18px;
+    height: 42px;
+    width: 11%;
+}
+
+#container {
+    display: grid;
+    height: 100vh;
+    padding-left: 26%;
+    margin-top: 56px;
+}
+
+#desc1 {
+    width: 45vw;
+    height: 95px;
+    margin-top: -89px;
+    position: relative;
+    margin-left: 115px;
+}
+
+
+#fire-icon {
+    margin-top: 44px;
+    display: block;
+    padding-right: 30px;
+    width: 79px;
+    color: #FF8C00;
+}
+
+#truck-icon {
+    margin-top: 74px;
+    display: block;
+    padding-right: 30px;
+    width: 79px;
+    color: #FF8C00;
+}
+
+#desc2 {
+    width: 42vw;
+    height: 95px;
+    margin-top: -102px;
+    left: 8%;
+}
+
+#battery-icon {
+    margin-top: 88px;
+    display: block;
+    padding-right: 30px;
+    width: 79px;
+    color: #FF8C00;
+}
+
+#desc3 {
+
+    width: 42vw;
+    height: 95px;
+    position: relative;
+    top: -94px;
+    left: 8%;
+}
+
+
+#video {
+    position: relative;
+    top: -5%;
+    left: 15%;
+    margin-bottom: 28px;
+    width: 33%;
+}
+
+.prices {
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+}
+
+#price-c {
+    position: relative;
+    left: -1%;
+    height: 292px;
+    display: flex;
+    gap: 50px;
+    width: 169vh;
+    padding-bottom: 10px;
+
+}
+
+.box-label {
+    background-color: #ddd;
+    height: 20%;
+    display: flexs;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.prices h2 {
+    padding-left: 39%;
+
+}
+
+.prices ol {
+    list-style: none;
+
+}
+
+.prices ol li {
+    display: block;
+}
+
+.l1 {
+    margin-left: 25%;
+}
+
+#non-l1 {
+    margin-left: 18%;
+}
+
+.l2 {
+    margin-left: 25%;
+}
+
+#non-l2 {
+    margin-left: 20%;
+}
+
+#non-l3 {
+    margin-left: 12%;
+}
+
+.l31 {
+    margin-left: 19%;
+}
+
+.l32 {
+    margin-left: 20%;
+}
+
+.l33 {
+    margin-left: 27%;
+}
+
+.select-btn {
+    margin-top: 6%;
+    margin-left: 31%;
+    background-color: #FFA500;
+    border: 0;
+    height: 34px;
+    width: 110px;
+}
+
+#select-btn {
+    margin-top: 6%;
+    margin-left: 34%;
+    border: 0;
+    height: 34px;
+    width: 110px;
+    background-color: #FFA500;
+}
+
+
+
+#footer {
+    background-color: #ddd;
+    height: 104px;
+    margin-top: 40px;
+    position: relative;
+    left: -234%;
+    width: 55vw;
+}
+
+#footer ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+#footer ul li {
+    position: relative;
+    left: 72%;
+    top: 32px;
+
+}
+
+#footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer span {
+    display: flex;
+    position: relative;
+    left: 73%;
+    top: 18px;
+    color: grey;
+}
